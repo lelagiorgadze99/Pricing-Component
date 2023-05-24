@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap");
+
+/* font-family: 'Manrope', sans-serif; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  color: #848ead;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: url(./images/bg-pattern.svg);
+  text-align: center;
+}
+
+.title {
+  font-weight: 800;
+  color: #293356;
+  font-size: 2rem;
+  margin-bottom: 0.8rem;
+}
+.info {
+  background: url(./images/pattern-circles.svg);
+  background-repeat: no-repeat;
+  background-position: center top 2.5rem;
+  padding: 5.7rem 2.5rem 7rem 2.4rem;
+}
+.card {
+  background-color: white;
+  padding-top: 3.4rem;
+  padding-bottom: 3.2rem;
+  box-shadow: 0px 20px 30px -5px rgba(127, 137, 185, 0.152073);
+  border-radius: 8px;
+  /* width: 32.7rem; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 2.4rem;
+  margin-right: 2.4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.offer {
+  font-size: 1.3rem;
+}
+p {
+  font-size: 1.2rem;
+}
+h4 {
+  font-weight: 800;
+  font-size: 1.2rem;
+  letter-spacing: 0.17rem;
+  text-transform: uppercase;
+  margin-bottom: 2.5rem;
+}
+.price-month {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.4rem;
+  margin-top: 2.4rem;
+  margin-bottom: 3.2rem;
+}
+.price {
+  font-size: 3.2rem;
+  font-weight: 800;
+  color: #293356;
+  letter-spacing: -0.8px;
+}
+.discount {
+  color: #ff8d68;
+  font-weight: 800;
+  font-size: 1rem;
+}
+.billing,
+.check > div {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.billing {
+  margin-bottom: 6rem;
+}
+.toggle {
+  background: #cfd8ef;
+  border-radius: 15px;
+  width: 4.3rem;
+  height: 2.2rem;
+  padding: 4px;
+}
+.btn-toggle {
+  background-color: white;
+  border-radius: 50%;
+  width: 1.4rem;
+  height: 1.4rem;
+}
+.check {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+  align-items: center;
+  margin-bottom: 3.3rem;
+}
+.btn {
+  background-color: #293356;
+  border-radius: 2.05rem;
+  padding: 1.2em 4.6em;
+  border: none;
+  color: #becdff;
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  cursor: pointer;
+}
+.slider {
+  background: #10d8c4;
+  box-shadow: 0px 15px 30px rgba(0, 255, 231, 0.6);
+  width: 4rem;
+  height: 4rem;
+  padding: 1.4rem 0.9rem 1.3rem 0.9rem;
+  border-radius: 50%;
+}
